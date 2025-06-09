@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+/* margine --- space outside
+padding -- space inside*/
+
+/* Types of selectors
+tag: for gtas(h1, h2, etc)
+class: for class(.)
+id: for id (#)*/
+
+h1{
+      font-family: "Edu VIC WA NT Hand Pre", cursive;
+      font-weight: 200;
+      font-style: italic;
+      
+      
+
+}

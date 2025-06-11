@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(206, 228, 221);
+    height: 100vh;
+    color: white;
+    font-family: fangsong;
+}
+
+section{
+    margin: auto;
+    background-color: black;
+    height: 650px;
+    width: 500px;
+    margin-top: 50px;    
+}
+
+.pro button{
+    background-color: yellow;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    height: 27px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10%;
+    font-family: fangsong;
+}    
+
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div img{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: top;
+    border: 5px solid #819A91;
+    
+
+}
+
+.name, .position{
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    
+}
+
+
+button{
+    background: transparent;
+    border: none;
+    margin: 10px;
+}
+.button{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+#following a{
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid #819A91;
+    color: #819A91;
+
+}
+
+.button a{
+    background: #819A91;
+    color: #0b1b15;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+
+.icon{
+    padding: 10px;
+    margin: 12px;
+    text-align: center;
+}
+
+.skills{
+    margin-left: 15px;
+}
+
+.skills1 button{
+    color: white;
+    font-family: fangsong;
+    font-size: large;
+    margin: 2px;
+    padding: 15px;
+}

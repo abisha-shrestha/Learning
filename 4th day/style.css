@@ -1,0 +1,24 @@
+.flex-container{
+    display: flex;
+    /* background-color: dodgerblue; */
+    height: 100vh;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,1)), url(abi.png);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; (image lai repeat huna dinna)*/
+
+    
+}
+
+.flex-container > div{
+    background-color: rgb(246, 242, 242);
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* Justify content --- horizontal */
+/* align item --- vertical*/

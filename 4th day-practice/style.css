@@ -13,16 +13,17 @@ body{
 section{
     margin: auto;
     background-color: black;
-    height: 650px;
+    height: 700px;
     width: 500px;
-    margin-top: 50px;    
+    margin-top: 50px;  
+    border-radius: 5%;  
 }
 
 .pro button{
     background-color: yellow;
     color: black;
-    margin: 10px;
-    padding: 10px;
+    margin: 12px;
+    
     height: 27px;
     width: 50px;
     text-align: center;
@@ -102,5 +103,10 @@ button{
     font-family: fangsong;
     font-size: large;
     margin: 2px;
-    padding: 15px;
+    padding: 20px;
+
+}
+
+.icon a{
+    margin-right: 10px;
 }

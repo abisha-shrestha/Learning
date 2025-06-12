@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(245, 211, 211);
+    align-items: center;
+    padding: 0 25px;
+    box-shadow: 10px 10px 20px rgb(100, 32, 43);    
+}
+
+.logo {
+    color: pink;
+}
+
+.highlighted-text {
+    background-color: rgb(162, 98, 109);
+    color: white;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+ul a{
+    margin-right: 25px;
+}
+
+svg{
+    height: 16px;
+    margin-right: 8px;
+
+}
+
+
+.login-section{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 2px solid rgb(162, 98, 109);
+    
+}
+
+.search input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.button a{
+    border: none;
+    border-radius: 100px;
+    padding: 4px 10px;
+    margin: 2px;
+    width: 60px;
+    transition: 0.5s;
+    border: 2px solid rgb(162, 98, 109);
+}
+
+.button a:hover{
+    background-color: rgb(162, 98, 109);
+    color: white;
+    cursor: pointer;
+}
+

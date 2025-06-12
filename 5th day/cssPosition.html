@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Examples</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    .section {
+      margin-bottom: 100px;
+      border: 2px dashed #aaa;
+      padding: 20px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .static-box {
+      background-color: purple;
+    }
+    .relative-box {
+      background-color: blue;
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+    .absolute-container {
+      position: relative;
+      height: 150px;
+      background-color: #ddd;
+    }
+    .absolute-box {
+      position: absolute;
+      top: 10px;
+      left: 30px;
+      background-color: green;
+    }
+    .fixed-box {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: crimson;
+    }
+    .sticky-container {
+      height: 1500px;
+      background: linear-gradient(#fff, #ccc);
+      padding-top: 60px;
+    }
+    .sticky-box {
+      position: sticky;
+      top: 0;
+      background-color: orange;
+      width: 100%;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 18px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Position Property Examples</h1>
+
+  <!-- Static -->
+  <div class="section">
+    <h2>Static Position (default)</h2>
+    <div class="box static-box">Static</div>
+  </div>
+
+  <!-- Relative -->
+  <div class="section">
+    <h2>Relative Position</h2>
+    <div class="box relative-box">Relative</div>
+  </div>
+
+  <!-- Absolute -->
+  <div class="section">
+    <h2>Absolute Position</h2>
+    <div class="absolute-container">
+      <div class="box absolute-box">Absolute</div>
+    </div>
+  </div>
+
+  <!-- Fixed -->
+  <div class="section">
+    <h2>Fixed Position (scroll to see)</h2>
+    <div class="box fixed-box">Fixed</div>
+    <p>Scroll the page to see the fixed element stay in the top-right corner.</p>
+  </div>
+
+  <!-- Sticky -->
+  <div class="section sticky-container">
+    <div class="sticky-box">Sticky Header (scroll down)</div>
+    <p>Keep scrolling to see the sticky header "stick" to the top.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    <p style="margin-top: 900px;">You've reached the bottom of the sticky section!</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ECEFCA;
+    height: 100vh;
+}
+
+header h1{
+    text-align: center;
+    margin: 10px 0px ;
+    background-color: #FFF2EB;
+}
+
+.abi{
+    height: auto;
+    width: 400px;
+    background-color: #94B4C1;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5%;
+
+}
+
+.abi img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.abi button{
+    background-color: transparent;
+    border: none;
+    margin: 20px;
+}
+
+.abi button a{
+    background-color: #547792;   
+    text-decoration: none; 
+    color: black;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+footer{
+    text-align: center;
+    background-color:#FFF2EB ;
+    margin: 10px 0px ;
+}

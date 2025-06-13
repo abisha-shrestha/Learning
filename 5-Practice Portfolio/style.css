@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    border: 2px solid black;
+    width: 950px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    margin-top: 70px;
+    flex-direction: column;
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    margin-bottom: 20px;
+    font-size: larger;
+    width: 700px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: start;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav button {
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 1s;
+    padding: 5px 10px;
+    border-radius: 100px;
+    width: 100px;
+    font-size: large;
+}
+
+nav button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.content {
+    display: flex;
+    margin: 4px;
+    padding-bottom: 10px;
+}
+
+.left {
+    margin: auto;
+    padding: 50px;
+}
+
+.left h1 {
+    font-size: 300%;
+}
+
+.left p {
+    color: rgb(82, 81, 81);
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn.primary,
+.btn.secondary {
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    transition: 1s;
+}
+
+.btn.primary:hover,
+.btn.secondary:hover {
+    background: black;
+    color: white;
+}
+
+.right {
+    position: relative;
+}
+.right::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 2px solid black;
+    left: -25px;
+    top: 25px;
+    border-radius: 0 0 0 90px;
+    z-index: -1;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    border-radius: 0% 20%;
+}
+
+.a {
+    padding-top: 5px;
+    font-size: xx-large;
+}
+
+.b {
+    padding-top: 5px;
+}
+
+.absolute-box {
+    display: flex;
+    position: absolute;
+    background: linear-gradient(to bottom, rgb(222, 219, 219), rgb(87, 87, 87));
+    padding: 2px;
+    border-radius: 7%;
+    font-size: medium;
+    gap: 10px;
+    justify-content: center;
+    top: 20px;
+    left: 300px;
+    width: 100px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.rotate {
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    transform: rotate(270deg);
+}
+
+.rotate a {
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+    padding: 10px;
+}

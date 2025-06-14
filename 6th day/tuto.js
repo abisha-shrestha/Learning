@@ -38,3 +38,12 @@ for (let a = 1; a <= 100; ) {
     a++;
 }
 console.log("Sum:", sum);
+
+
+//WAP to perform addition using a function
+
+function add(a,b){
+    console.log(a+b)
+}
+
+add(10,10)

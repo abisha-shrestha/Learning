@@ -47,3 +47,32 @@ function add(a,b){
 }
 
 add(10,10)
+
+
+//Write a function called findMax that takes two numbers as input and returns the greater number.
+
+function findMax(a,b){
+    if(a>b){
+        console.log(a,"is greater.")
+    }
+    else{
+        console.log(b,"is greater.")
+    }
+}
+
+findMax(9,5)
+
+//Write a function called isLeapYear that takes a year as input and returns true if it's a leap year, otherwise false.
+
+function isLeapYear(year){
+    if (year%4 == 0 && year%100 !=0 || year%400 ==0){
+        console.log(year,"is leap year.")
+    }
+    else{
+        console.log(year,"is not leap year.")
+    }
+}
+
+isLeapYear(2004)
+isLeapYear(1999)
+isLeapYear(2005)

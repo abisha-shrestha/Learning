@@ -74,6 +74,7 @@ function isLeapYear(year){
 }
 
 isLeapYear(2004)
+
 isLeapYear(1999)
 
 isLeapYear(2005)

@@ -65,6 +65,7 @@ findMax(9,5)
 //Write a function called isLeapYear that takes a year as input and returns true if it's a leap year, otherwise false.
 
 function isLeapYear(year){
+
     if (year%4 == 0 && year%100 !=0 || year%400 ==0){
         console.log(year,"is leap year.")
     }

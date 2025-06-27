@@ -9,13 +9,13 @@ for (let a = 1; a <= 50; a++) {
 // WAP to count how many numbers between 1 to 100 are divisible by both 3 and 5.
 
 let count = 0;
-
 for (let i = 1; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
         count++;
     }
 }
 console.log("Count:", count);
+
 
 // WAP to print the multiplication table of a given number using for loop.
 
@@ -29,10 +29,11 @@ const table = (number) => {
 
 };
 table(5);
+
+
 // WAP to print the sum of numbers from 1 to 100 using a while loop.
 
 let sum = 0;
-
 for (let a = 1; a <= 100; ) {
     sum += a;
     a++;
